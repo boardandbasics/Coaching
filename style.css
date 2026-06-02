@@ -159,6 +159,7 @@
      backdrop-filter: blur(7px);
      text-align: center;
      border: 1px solid #fff;
+     border-radius: 10px;
  }
 
  .content-box img {
@@ -167,6 +168,10 @@
      object-position: top;
      height: 13rem;
      width: 12rem;
+ }
+
+ .content-box:hover{
+    box-shadow: 0 0 20px 1px #fff;
  }
 
  .content-box h1 {
@@ -213,13 +218,29 @@
      border: 1px solid #fff;
      object-position: center;
      object-fit: cover;
+     border-radius: 10px;
+ }
+
+ .notes-box p{
+    padding:2px;
+    color:rgb(0, 68, 255);
+    font-weight: 700;
+ }
+
+ .notes-box a{
+    text-decoration: none;
+ }
+
+ .notes-box:hover{
+    box-shadow: 0 0 25px 5px #fff;
  }
 
  .notes-box img {
      object-fit: cover;
      object-position: top;
-     height: 90%;
+     height: 88%;
      width: 100%;
+     border-radius: 10px 10px 0 0;
      
  }
 
